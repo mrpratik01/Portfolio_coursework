@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body {
+    background: linear-gradient(135deg, rgb(74, 13, 143) 0%, rgba(250, 42, 143) 100%);
+    height: 100vh;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+ul li {
+    display: inline-block;
+    padding: 25px;
+    margin-right: 40px;
+}
+ul li a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 5px, 0.2px; 
+    transition: 0.05s ease;
+
+}
+
+ul li a:hover{
+    color: rgba(255, 255, 255, 0.75) ;
+}
+
+ul li a.active{
+    border-bottom: 2px solid #fff;
+    padding: 2px 20px;
+    border-radius: 3px;
+    color: #fff;
+}
+
+ul li a.pro{
+    border: 1px solid #fff;
+    padding: 5px 30px;
+    border-radius: 3px;
+    color: #fff;
+}
+ul li a.pro:hover{
+    background-color: #fff;
+    color: purple;
+
+
+}
+.cv-title{
+    position: absolute;
+    margin: 170px;
+    padding-left: 29%;
+    color: #fff;
+}
+.cv-photo{
+    position: relative;
+    top: 20%;
+
+}
+.cv-h2{
+    color: #fff;
+    position: absolute;
+    margin-top: 100px;
+    padding: 15px 20px;
+    border: 3px solid #fff;
+    margin-left: 100px;
+}
+
+.cv-contact{
+    position: absolute;
+    top: 640px;
+    padding-left: 50px;
+    color: #fff;
+
+}
+
+.cv-contact h4{
+    margin: 10px;
+}
+
+.cv-contact p{
+    padding-left: 10px;
+}
+.cv-contact a{
+    color: #fff;
+    padding-left: 10px;
+
+}
+.cv-contact a:hover{
+    color: blue;
+}
+.summary {
+    position: absolute;
+    top: -240px;
+    padding-left: 600px;
+    width: 500px;
+    color: #fff;
+    text-decoration: none;
+}
+.summary p{
+    position: relative;
+    left: -30px;
+    margin: 30px;
+    font-size: 19px;
+    
+}
+.skill-highlights{
+    position: relative;
+    padding-left: 600px;
+    top: -20px;
+    color: #fff;
+}
+
+.skill-highlights li{
+    margin: 20px;
+}
+.experience{
+    color: #fff;
+    padding-left: 600px;
+}
+
+.experience p{
+    margin-top: 20px;
+}
+.cv-up{
+    position: relative;
+    margin-top: 65px;
+}
