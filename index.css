@@ -79,12 +79,8 @@ ul li a.pro:hover{
 }
 
 .image{
-    position: absolute;
-    top: 65%;
-    transform: translate(-10%, -20%);
-    padding-bottom: -20%;
-    overflow: hidden;
-    padding-left: 20px;
+    position: relative;
+    top: 500px;
 }
 aside{
     float: right;
@@ -123,4 +119,25 @@ aside a{
     position: relative;
     padding-left: 900px;
     top: -600px;
+}
+.skill-bar{
+    position: absolute;
+    bottom: 300px;
+    left: 900px;
+    top: 80px;
+}
+.skill-bar .container{
+    background-color: rgb(202, 248, 246);
+    box-sizing: border-box; 
+    width: 700px;
+    height: 30px;
+}
+.skill-bar .container .skills{
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    color: rgb(0, 0, 0);
+    text-align: right;
+}
+.skill-bar .container .skills .html{
+    width: 90%; background-color: #04AA6D;
 }
